@@ -1,0 +1,49 @@
+.main-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 200px;
+}
+
+.movie-image {
+  width: 100%;
+  height: auto;
+}
+
+.movie-details {
+  padding: 10px;
+  text-align: center;
+}
+
+.uploaded-images-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.uploaded-image-card {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 200px;
+}
+
+.uploaded-image-card img {
+  width: 100%;
+  height: auto;
+}
